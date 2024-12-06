@@ -6,7 +6,8 @@ import { Object3D, Vector2 } from "three";
 import * as THREE from "three";
 import { GLTF } from "three-stdlib";
 import { useFrame, useThree } from "@react-three/fiber";
-import { WiggleBone } from "wiggle/spring";
+//@ts-ignore
+import { WiggleBone } from "wiggle";
 
 type GLTFResult = GLTF & {
   nodes: {
